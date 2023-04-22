@@ -1,0 +1,101 @@
+nav {
+    background-color: #4CAF50;
+    overflow: hidden;
+    
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-grow: 1;
+    justify-content: right;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #3E8E41;
+  }
+  
+  nav form {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+  }
+  
+  nav input[type=text] {
+    padding: 6px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  body{
+    background-color: rgb(156, 222, 241);
+  }
+
+  .banner {
+    background-color: #74e3eb;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  .contenedor1{
+    text-align: center;
+  }
+  .caja1, .caja2, .caja3, .caja4 {
+    background-color: aqua;
+    padding: 90px;
+    display: inline-block;
+    width: 100px;
+    margin-right: 20px;
+    border: rgb(241, 238, 218) solid;
+  }
+  
+  .caja2 {
+    background-color: rgb(184, 177, 255);
+  }
+  
+  .caja3 {
+    background-color: rgb(255, 118, 118);
+  }
+  
+  .caja4 {
+    background-color: rgb(214, 196, 221);
+  }
+  
+  button{
+    color: black;
+    background-color: burlywood;
+    border-radius: solid rgb(111, 86, 114);
+    border-color: rgb(167, 134, 180);
+  }
+ 
+  a:hover{
+    color: gray;
+  }
+  
+  footer{
+    background-color: #3E8E41;
+    overflow: hidden;
+    }

@@ -1,0 +1,125 @@
+body {
+  background-color: #e2f4e6;
+  margin: 0;
+  padding: 0;    
+}
+
+header,
+nav {
+  background-color: #4CAF50;
+}
+header{
+    padding: 1%;
+}
+
+/*Barra de navegacion*/
+nav {
+  background-color: #4CAF50;
+  overflow: hidden;
+  
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-grow: 1;
+  justify-content: right;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #3E8E41;
+}
+
+nav form {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+nav input[type=text] {
+  padding: 6px;
+  border: none;
+  border-radius: 4px;
+}
+
+nav button[type=submit] {
+  background-color: #555;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+/*Fin barra*********************/
+
+  /*Cuerpo*/
+
+  section{
+    background-color: #e2f4e6;
+    padding-left: 2%;
+    padding-right: 5%;
+    padding-top: 3%;
+  }
+
+  h2 {
+    font-family: Georgia, serif;
+    font-size: 28px;
+    margin-bottom: 1rem;
+  }
+  section form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label,
+  ul li h3 {
+    font-family: Georgia, serif;
+    font-size: 18px;
+  }
+  
+  section form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+  
+
+    width: 80%;
+    max-width: 600px;
+  }
+
+  
+  .notificacion {
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .notificacion h3 {
+    font-size: 24px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .notificacion p {
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+  
